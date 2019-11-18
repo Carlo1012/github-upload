@@ -1,0 +1,65 @@
+<style type="text/css">
+    
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #2d2929;
+}
+
+.navbar-inverse {
+    position: inherit;
+    margin: unset;
+    margin-left: -15px;
+    margin-right: -15px;
+    
+</style>
+<div class="container-fluid header-image">
+      <!-- Header-Image -->
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="dashboard.php">DILGBulacanars</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="dashboard.php">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Announcement<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="announcement_admin.php">Create New Post</a></li>
+              <li><a href="postlist.php">List of Post</a>
+
+            </ul>
+          </li>
+
+     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Reports<span class="label label-pill label-danger count" style="border-radius:10px;"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="report_admin.php">Distribute Report Form</a></li>
+              <li><a href="reportlist_admin.php">List of Reports</a></li>
+              <li><a href="all_logs.php">All Reports</a></li>
+              
+            </ul>
+          </li>
+<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Accounts <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="edit_admin.php">My Information</a></li>
+              <li><a href="accounts_admin.php">Staff Accounts</a></li>
+              <li><a href="mlgoo_admin.php">Mlgoo Accounts</a></li>
+              <li><a href="register_staff.php">Register a Staff</a>
+              <li><a href="register_mcgloo.php">Register a Mlgoo/Clgoo</a>
+              <li><a href="changepass_admin.php">Change Password</a>
+            </ul>
+          </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo 'Admin'.' | '.$firstname_s. ' '.$lastname_s ;?><span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="log_out.php">Log out</a>
+            </ul>
+          </li>
+    </ul>
+  </div>
+</nav>
+   

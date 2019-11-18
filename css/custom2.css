@@ -1,0 +1,371 @@
+/*FOR LOGIN.PHP*/
+.bglogin.container-fluid {
+background-image: url("../images/loginv2.jpg");
+background-repeat: no-repeat;
+width: 100%;
+height: 900px;
+max-height: 100%;
+background-size: 100% 100%;
+overflow: hidden;
+padding: unset;
+margin: unset;
+}
+
+.container-fluid.header-image {
+	background-image: url("../images/header2.jpg");
+	background-repeat: no-repeat;
+	height: 200px;
+	max-height: 100%;
+	background-size: 100% 100%;
+	margin-left: -15px;
+	margin-right: -15px;
+	position: relative; 
+	background-position: center;
+}
+
+nav.navbar.navbar-inverse.navbar-fixed-top {
+    margin-bottom: unset;
+}
+
+.container-fluid.login.col-sm-4 {
+    float: right;
+    margin-top: 160px;
+}
+
+b.login {
+color: black;
+}
+
+label.login {
+    color: black;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+/*announcement_admin*/
+.col-lg-4.announcement_admin {
+	margin-top: 150px;
+	text-align: center;
+}
+
+
+.dropdown_announcement {
+    padding: 12px 20px;
+    width: 100%
+}
+
+.col-lg-4.news {
+	margin-top: 150px;
+    text-align: center;
+}
+
+/*Global Design*/
+input[type=text], input[type=password] {
+    margin: 15px 0;
+}
+
+.container-fluid.header {
+    text-align: center;
+    /*margin-top: -20px;*/
+    background-color: white;
+    padding-bottom: 70px;
+    margin-left: -15px;
+    margin-right: unset;
+    margin-right: -15px;
+    margin-bottom: 80px;
+    padding-top: 50px;
+}
+
+  .container.box
+  {
+   width:100%;
+   padding:20px;
+   background-color:#fff;
+   border:1px solid #ccc;
+   border-radius:5px;
+   margin-top:25px;
+   box-sizing:border-box;
+   margin-bottom: 30px;
+  }
+
+.navbar-inverse {
+    background-color: #06efeb;
+    border-color: #080808;
+}
+
+body {
+	font-family: Verdana;
+	height: 100%;
+}
+
+.table-responsive {
+    background-color: white;
+}
+
+.background {
+  background-color: ##e5e5e585;
+  /*#f5f5f585*/
+}
+
+.login {
+	background-image: url('images/login.jpg');
+}
+
+.send {
+	float: right;
+}
+
+
+input[type=file] {
+	display: unset;	
+	/*width:500px; */
+	/*height:100px; */
+	border:2px dashed #ccc;  
+	font-size:24px;
+	max-width: 100%;
+	max-height: 100%;
+	background-color: white;
+	float: right;
+	margin-bottom: 20px;
+}
+
+.opts {	
+	float: right;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	padding: 15px;
+	margin-bottom: 20px;
+	width: 300px;
+	max-width: 100%;
+	text-align: center;
+}
+}
+
+.opts_title {
+	font-size: 18px;
+	float: left;
+	padding:15px; 
+	margin-bottom:20px;
+}
+
+.deadline {
+	font-size: 18px;
+	float: left;
+	padding:15px; 
+	margin-bottom:20px;
+}
+
+input#autodeadline {
+	font-size: 18px;
+	border:1px solid #ccc; 
+	padding:15px; 
+	margin-bottom:20px;
+	width: 300px;
+	max-width: 100%;
+	text-align: center;
+	float: right;	
+}
+
+
+.upload {
+	width: 100%;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	display: inline-block;
+	transition: all 0.5s;
+	font-size: 18px;
+	max-width: 100%;
+
+}
+
+/* FOR TRANSITION*/
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+hr {
+	display: block;
+	unicode-bidi: isolate;
+	margin-block-start: 0.5em;
+	margin-block-end: 0.5em;
+	margin-inline-start: auto;
+	margin-inline-end: auto;
+	overflow: hidden;
+	border-style: inset;
+	border-width: 1px;
+	margin-top: 60px;
+}
+
+.send_report_title {
+	float: left;
+}
+
+input#datepicker {
+	font-size: 18px;
+	border:1px solid #ccc; 
+	padding:15px; 
+	margin-bottom:20px;
+	width: 300px;
+	max-width: 100%;
+	text-align: center;
+}
+
+input#recipient {
+	font-size: 18px;
+	border:1px solid #ccc; 
+	padding:15px; 
+	margin-bottom:20px;
+	width: 300px;
+	max-width: 100%;
+	text-align: center;
+	float: right;	
+}
+
+
+
+.container.report_admin {
+  margin: auto;
+  width: 90%;
+  background-color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+
+input[type="file"] {
+	width:300px; 
+	height:60px;
+	border:2px dashed #ccc;  
+	font-size:16px;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+	background: #485dc5;
+	color: #FFFFFF;
+	line-height: 38px;
+	padding: 0px 20px;
+	border: none;
+	width: 0;
+	padding: 0;
+	margin: 0;
+	-webkit-appearance: none;
+	border: none;
+  
+}
+
+x::-webkit-file-upload-button, input[type=file]:after {
+	content:'Choose File';
+	display: inline-block;
+	left: 100%;
+	margin-left:0px;
+	position: relative;
+	padding: 0px;
+}
+
+input[type=file]:after {
+	margin-left: 0px;
+	background: #485dc5;
+	color: #FFFFFF;
+	line-height: 38px;
+	padding: 0px 20px;
+	border: none;
+	outline: 1px solid #485dc5;
+}	
+
+/*FOR SELECTING STAFF/MLGOO*/
+select.row.opts {
+    margin-right: 0px;
+}

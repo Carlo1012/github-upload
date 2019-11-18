@@ -1,0 +1,52 @@
+<style type="text/css">
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #2d2929;
+}
+
+.navbar-inverse {
+    position: inherit;
+    margin: unset;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+</style>
+<div class="container-fluid header-image">
+  <!-- Header-Image -->
+</div>
+
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="dashboard_mclgoo.php">DILGBulacanars</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="dashboard_mclgoo.php">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Reports<span class="label label-pill label-danger count" style="border-radius:10px;"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="reportlist_mclgoo.php">List of Reports</a>    
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Accounts <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="edit_mlgoo.php">My Information</a>
+          <li><a href="changepass_mlgoo.php">Change Password</a>
+        </ul>
+      </li>
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo  $municipality.' | '. $firstname. ' '.$lastname;?><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="log_out.php">Log out</a>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+

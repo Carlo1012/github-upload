@@ -1,0 +1,3 @@
+[17-Mar-2019 19:08:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/dilgbula/public_html/announcement/load_data.php on line 9
+[18-Mar-2019 00:23:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/dilgbula/public_html/announcement/load_data.php on line 9
+[18-Mar-2019 00:23:20 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/dilgbula/public_html/announcement/load_data.php on line 9

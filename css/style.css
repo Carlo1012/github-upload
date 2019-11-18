@@ -1,0 +1,84 @@
+.bg {
+	margin: 0;
+	padding: 0;
+  	background:rgba(0,0,0,.1);
+	background-size: cover;
+	font-family: sans-serif;
+	background-repeat: no-repeat;
+}
+
+.loginBox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 250px;
+	height: 320px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(15,49,92,1);
+}
+
+.user {
+	background-image: url("../images/user.jpg");
+	width: 100px;
+	height: 100px;
+	border-radius: 60%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-110px/2);
+	left: calc(50% - 50px);
+}
+
+h2{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #efed40;
+	text-align: center;
+}
+
+.loginBox p {
+	font-family: -webkit-body;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+
+.loginBox input {
+	width: 100%;
+	margin-bottom: 20px;
+	font-family: -webkit-body;
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="password"] {
+	border: none;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-family: -webkit-body;
+	font-size: 16px;
+}
+
+::placeholder {
+	color: inherit;
+}
+
+.loginBox input[type="submit"] {
+	float: right;
+}
+
+
+.loginBox a{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: -webkit-body;
+}
+
+.submit {
+	float: right;
+}
